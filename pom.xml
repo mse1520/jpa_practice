@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>practice</groupId>
+	<artifactId>jpa_practice</artifactId>
+	<version>1.0.0</version>
+	<name>kyh</name>
+
+	<dependencies>
+		<!-- JPA 하이버네이트 -->
+		<!-- 스피링부트와 버전을 맞춰주는것이 좋다. -->
+		<!-- 스프링 공식문서에서 org.hibernate 버전을 확인하자. -->
+		<!-- 주소: spring.io -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>5.4.32.Final</version>
+		</dependency>
+		<!-- mariaDB -->
+		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
+		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>2.7.3</version>
+		</dependency>
+	</dependencies>
+</project>
